@@ -1,0 +1,52 @@
+.mainDashboard {
+  h3 {
+    text-align: center;
+  }
+
+  &__newMatchBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px black solid;
+    border-radius: 8px;
+    width: 6rem;
+  }
+
+  &__container {
+    display: flex;
+    padding: 5rem;
+    padding-top: 3rem;
+  }
+
+  &__myTeam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 25rem;
+    height: 78vh;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 3rem;
+    width: 80%;
+
+    &_item {
+      width: 22rem;
+      height: 22rem;
+      border: 1px black solid;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      margin: auto;
+    }
+  }
+}
